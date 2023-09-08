@@ -27,6 +27,25 @@ public class Menu {
     public ArrayList<MenuItem> getItems() {
         return items;
     }
+
+    public void addMenuItem(MenuItem item) {
+        this.items.add(item);
+    }
+
+    public void removeMenuItem(MenuItem item) {
+        this.items.remove(item);
+    }
+
+    public boolean checkNew(MenuItem item) {
+        return item.isNew();
+    }
+
+    public void printItem(MenuItem item) {
+    }
+
+    public void printMenu() {
+    }
+}
 }
 
 
